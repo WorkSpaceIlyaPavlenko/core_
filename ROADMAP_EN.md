@@ -155,7 +155,7 @@ Builder is just one of its consumers.
 └───────┬───────┘
         ↓
 ┌───────────────┐
-│  Core         │
+│      Core     │
 └───────┬───────┘
         ↓
 ┌───────────────┐
@@ -176,9 +176,3 @@ Builder is just one of its consumers.
 - Runtime is strict
 - UI is fully declarative
 
----
-
-## 🏁 Conclusion
-
-is not “just another UI framework”,
-but a foundation for declarative and extensible UI systems.
