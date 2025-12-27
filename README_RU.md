@@ -52,9 +52,9 @@ Config.Elements.Button({
 └───────┬────────┬─────────┘
         ↓        ↓
 ┌────────────┐ ┌──────────────┐
-│  Register  │ │   Signals     │
+│  Register  │ │   Signals    │
 │ (Effector) │ │ (Handlers)   │
-└────┬───────┘ └────┬──────────┘
+└────┬───────┘ └────┬─────────┘
      ↓               ↓
 ┌──────────────────────────┐
 │       Transformer        │  ← runtime → React
