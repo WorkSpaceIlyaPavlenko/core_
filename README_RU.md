@@ -214,7 +214,7 @@ Container → childrenIds → Transformer → React tree
 
 ---
 
-## DevKit
+## DevKit (планиурется)
 
 В проекте есть devkit для разработки:
 
