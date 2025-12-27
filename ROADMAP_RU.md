@@ -136,8 +136,7 @@ Store patch
 Builder UI
    ↓
 AST Editor
-   ↓
-Core
+   ↓ Core
    ↓
 Preview Renderer
 ```
@@ -155,7 +154,7 @@ Builder — один из клиентов.
 └───────┬───────┘
         ↓
 ┌───────────────┐
-│  Core         │
+│     Core      │
 └───────┬───────┘
         ↓
 ┌───────────────┐
