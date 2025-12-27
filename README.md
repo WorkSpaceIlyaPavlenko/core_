@@ -7,8 +7,8 @@ Declarative UI engine for building React interfaces from AST configurations.
 </p>
 
 <p>
-⚛️ React · 🧠 Effector · 🛡 Zod · 🔐 Node Crypto
-  <img src="https://skillicons.dev/icons?i=ts,react,Effector,Zod,Node Crypto" />
+<!-- ⚛️ React · 🧠 Effector · 🛡 Zod · 🔐 Node Crypto -->
+  <img src="https://skillicons.dev/icons?i,react,Effector,Zod,Node Crypto" />
 </p>
 
 </div>
