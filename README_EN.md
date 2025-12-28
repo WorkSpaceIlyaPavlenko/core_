@@ -52,9 +52,9 @@ The engine then:
 └───────┬────────┬─────────┘
         ↓        ↓
 ┌────────────┐ ┌──────────────┐
-│  Register  │ │   Signals     │
-│ (Effector) │ │ (Handlers)   │
-└────┬───────┘ └────┬──────────┘
+│  Register  │ │   Signals    │
+│ (Effector) │ │  (Handlers)  │
+└────┬───────┘ └────┬─────────┘
      ↓               ↓
 ┌──────────────────────────┐
 │       Transformer        │  ← runtime → React
