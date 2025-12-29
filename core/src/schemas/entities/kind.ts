@@ -1,6 +1,5 @@
-
+import z from "zod";
 import Types from "@/core/types/types";
-import {z} from "zod";
 
 
 const AllKindsSchema = z.enum(Object.values(Types.Entities.Kind))
