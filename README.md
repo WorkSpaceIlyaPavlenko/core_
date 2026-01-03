@@ -16,7 +16,7 @@ Declarative UI engine for building React interfaces from AST configurations.
 
 ## 📦 Installation
 
-<div align="center">
+<div align="start">
 
 | Package | Command |
 |----------|----------|
