@@ -73,7 +73,7 @@ export default class Engine
         this.childrenProvide({id, kind});
     }
 
-    private signalsProvider({core, behavior}:NodeAstConfigType)
+    private async signalsProvider({core, behavior}:NodeAstConfigType)
     {
         if (!behavior)
             return;

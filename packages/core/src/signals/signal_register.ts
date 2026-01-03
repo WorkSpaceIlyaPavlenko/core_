@@ -1,6 +1,6 @@
 
 import {CoreIdAndKind} from "@/core/signals/type";
-import crypto from 'node:crypto';
+import SHA256 from "crypto-js/sha256";
 import {RuntimeSignal} from "@/core/engine/type";
 import Validator from "@/core/schemas/validator";
 import AppButtonHandler, {ButtonHandler} from "@/core/signals/handlers/button_handler";
@@ -88,11 +88,7 @@ class SignalRegister
 
     private createSignalId(key:string)
     {
-        const key_ = crypto.createHash('sha256')
-            .update(key)
-            .digest('hex')
-            .slice(0,16);
-
+        const key_ = SHA256(key).toString().slice(0,16);
         return `sig_${key_}`;
     }
 

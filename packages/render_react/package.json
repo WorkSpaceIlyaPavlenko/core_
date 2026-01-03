@@ -1,6 +1,6 @@
 {
-  "name": "@ilyapavlenko/react",
-  "version": "0.1.0",
+  "name": "@ilyapavlenko/core-react",
+  "version": "0.1.2",
   "private": false,
   "type": "module",
   "main": "dist/index.js",
@@ -23,12 +23,12 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@ilyapavlenko/core": "^0.1.2"
+    "@ilyapavlenko/core": "^0.1.3"
   },
   "peerDependencies": {
+    "react": ">=18.0.0 <21.0.0",
     "effector": "^23",
-    "effector-react": "^23",
-    "react": "^18.0.0"
+    "effector-react": "^23"
   },
   "devDependencies": {
     "@types/react": "^19.2.7",
