@@ -14,6 +14,19 @@ Declarative UI engine for building React interfaces from AST configurations.
 
 ---
 
+## 📦 Installation
+
+<div align="center">
+
+| Package | Command |
+|----------|----------|
+| 🧩 **Core** | <pre><code>npm install @ilyapavlenko/core</code></pre> |
+| ⚛️ **Core React** | <pre><code>npm install @ilyapavlenko/core-react</code></pre> |
+
+</div>
+
+---
+
 ## 📌 Project Description
 
 Core is a low-level UI engine that builds React components **not from JSX**,  
