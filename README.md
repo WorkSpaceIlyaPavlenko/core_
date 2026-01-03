@@ -12,18 +12,6 @@ Declarative UI engine for building React interfaces from AST configurations.
 
 </div>
 
----
-
-## 📦 Installation
-
-<div align="start">
-
-| Package | Command |
-|----------|----------|
-| 🧩 **Core** | <pre><code>npm install @ilyapavlenko/core</code></pre> |
-| ⚛️ **Core React** | <pre><code>npm install @ilyapavlenko/core-react</code></pre> |
-
-</div>
 
 ---
 
@@ -57,7 +45,20 @@ The project is designed as a **foundation**, not a finished framework.
 - DevKit is powerful  
 - Builder is optional  
 - Runtime is strict  
-- UI is fully declarative  
+- UI is fully declarative
+
+  ---
+
+## 📦 Installation
+
+<div align="start">
+
+| Package | Command |
+|----------|----------|
+| 🧩 **Core** | <pre><code>npm install @ilyapavlenko/core</code></pre> |
+| ⚛️ **Core React** | <pre><code>npm install @ilyapavlenko/core-react</code></pre> |
+
+</div>
 
 ---
 
